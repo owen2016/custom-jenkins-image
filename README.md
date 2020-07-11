@@ -1,4 +1,4 @@
-# jenkins
+# jenkins-custom image
 
 custom jenkins based on official images
 
