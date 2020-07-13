@@ -24,7 +24,7 @@ USER jenkins
 #RUN curl -L https://github.com/docker/compose/releases/download/2.176.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose 
 #RUN chmod +x /usr/local/bin/docker-compose
 
-#COPY plugins_jenkins.txt /usr/share/jenkins/plugins_jenkins.txt
-#RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins_jenkins.txt
+COPY plugins_jenkins.txt /usr/share/jenkins/plugins_jenkins.txt
+RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins_jenkins.txt
 
 
