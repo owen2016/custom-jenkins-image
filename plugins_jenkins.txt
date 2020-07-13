@@ -4,3 +4,5 @@ git-client:latest
 git:latest
 docker-commons:latest
 docker-build-step:latest
+pipeline:latest
+ssh-steps:latest
