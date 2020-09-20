@@ -1,9 +1,6 @@
-# jenkins-custom image
+# custom jenkins based on official images
 
-custom jenkins based on official images
-
-
-```
+``` shell
 docker build -f Dockerfile-jenkins  -t owen2016/jenkins:1.0 . 
 
 ## DooD（Docker-outside-of-Docker）
