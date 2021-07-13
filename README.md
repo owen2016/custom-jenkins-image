@@ -1,4 +1,4 @@
-# custom jenkins based on official images
+# custom jenkins based on official images - demo
 
 ``` shell
 docker build -f Dockerfile-jenkins  -t owen2016/jenkins:1.0 . 
